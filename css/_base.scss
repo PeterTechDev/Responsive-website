@@ -1,5 +1,20 @@
 $primary-color: #329713;
 
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin boundaries($isAuto: true) {
+  width: 90%;
+  max-width: 980px;
+
+  @if $isAuto {
+    margin: auto;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

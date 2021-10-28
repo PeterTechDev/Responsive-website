@@ -2,13 +2,11 @@ header {
   background-color: $primary-color;
 
   .container {
-    display: flex;
-    align-items: center;
+    @extend .flexCenter;
     justify-content: space-between;
-  
-    width: 90%;
-    max-width: 980px;
-  
+
+    @include boundaries();
+
     margin: auto;
   }
 
@@ -23,7 +21,6 @@ header {
 
     li {
       list-style: none;
-
     }
 
     a {
@@ -38,6 +35,5 @@ header {
         background: rgba(255, 255, 255, 0.15);
       }
     }
-
   }
 }
