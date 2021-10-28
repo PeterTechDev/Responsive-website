@@ -1,4 +1,4 @@
-$primary-color: #71f036;
+$primary-color: #c2ccbd;
 
 .flexCenter {
   display: flex;
@@ -12,6 +12,14 @@ $primary-color: #71f036;
 
   @if $isAuto {
     margin: auto;
+  }
+}
+
+@function set-text-color($color) {
+  @if lightness($color) > 70 {
+    @return #333;
+  } @else {
+    @return white;
   }
 }
 
