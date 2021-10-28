@@ -1,6 +1,6 @@
 @charset "UTF-8";
 header {
-  background-color: #7159c1;
+  background-color: #329713;
 }
 
 header .container {
@@ -18,23 +18,23 @@ header .container {
   margin: auto;
 }
 
-#logo {
+header #logo {
   width: 50px;
   margin-left: 20px;
   padding: 15px 0;
 }
 
-header nav ul {
+header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header nav ul li {
+header ul li {
   list-style: none;
 }
 
-header nav ul li a {
+header ul a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -44,7 +44,7 @@ header nav ul li a {
   transition: all 250ms linear 0s;
 }
 
-header nav ul li a:hover {
+header ul a:hover {
   background: rgba(255, 255, 255, 0.15);
 }
 
