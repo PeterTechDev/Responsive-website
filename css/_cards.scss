@@ -16,7 +16,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #7159c1;
+  background-color: $primary-color;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -59,6 +59,6 @@
   margin-left: auto;
   padding: 5px 20px;
   border-radius: 20px;
-  background-color: #7159c1;
+  background-color: $primary-color;
   filter: brightness(90%);
 }
