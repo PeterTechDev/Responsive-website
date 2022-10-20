@@ -23,7 +23,7 @@
 <h3>SASS</h3>
 <ul>
     <li> Mixin  </li>
-    <li> if </li>
-    <li> function </li>
-    <li>modulos </li>
+    <li> Condicionais </li>
+    <li> Arrow Functions </li>
+    <li> Modules </li>
 </ul>
